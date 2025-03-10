@@ -1,0 +1,35 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+    volumes:
+      - ./backend:/var/www/html/backend
+      - ./frontend:/var/www/html # Esta línea se añade para montar el frontend
+
+    environment:
+      - MYSQL_HOST=db
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=p4ssw0rd.
+      - MYSQL_DATABASE=sistema_usuarios
+
+  db:
+    build:
+      context: ./database
+      dockerfile: Dockerfile
+    environment:
+      - MYSQL_ROOT_PASSWORD=p4ssw0rd.
+      - MYSQL_DATABASE=sistema_usuarios
+    volumes:
+      - mysql_data:/var/lib/mysql
+    ports:
+      - "3307:3306" # Puedes usar otro puerto si el 3306 ya está en uso
+
+volumes:
+  mysql_data:

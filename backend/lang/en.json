@@ -1,0 +1,21 @@
+{
+    "error_password": "Incorrect password",
+    "error_usuario": "User not found",
+    "password_changed": "Password changed successfully",
+    "error_password_change": "Error changing password",
+    "error_request": "Incorrect request",
+    "not_authenticated": "You are not authenticated",
+    "loginTitle": "Login",
+    "labelUsername": "Username",
+    "labelPassword": "Password",
+    "loginButton": "Login",
+    "panelAdminTitle": "Admin Panel",
+    "panelAdminMessage": "This is the admin panel.",
+    "logoutButton": "Logout",
+    "panelUserTitle": "User Panel",
+    "panelUserMessage": "This is the user panel.",
+    "passwordTitle": "Set the password for the admin user",
+    "labelNewPassword": "New Password",
+    "labelConfirmPassword": "Confirm Password",
+    "setPasswordButton": "Set Password"
+}

@@ -1,0 +1,21 @@
+{
+    "error_password": "Contraseña incorrecta",
+    "error_usuario": "Usuario no encontrado",
+    "password_changed": "Contraseña cambiada correctamente",
+    "error_password_change": "Error al cambiar la contraseña",
+    "error_request": "Petición incorrecta",
+    "not_authenticated": "No estás autenticado",
+    "loginTitle": "Iniciar Sesión",
+    "labelUsername": "Usuario",
+    "labelPassword": "Contraseña",
+    "loginButton": "Iniciar Sesión",
+    "panelAdminTitle": "Panel de Administrador",
+    "panelAdminMessage": "Este es el panel de administrador.",
+    "logoutButton": "Cerrar Sesión",
+    "panelUserTitle": "Panel de Usuario",
+    "panelUserMessage": "Este es el panel de usuario.",
+    "passwordTitle": "Establezca la contraseña del usuario admin",
+    "labelNewPassword": "Nueva Contraseña",
+    "labelConfirmPassword": "Confirmar Contraseña",
+    "setPasswordButton": "Establecer Contraseña"
+}
